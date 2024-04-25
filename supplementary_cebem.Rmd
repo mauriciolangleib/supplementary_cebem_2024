@@ -23,7 +23,7 @@ ___
 
 # Membrane fusion: a fundamental process
 
-Life as we know it heavily depends on cellular membranes. The very existence of cells requires the compartmentalization provided by these membranes. The emergence and evolution of different cell types, from the appearance of the first cells (estimated ... million years ago) to the present, largely base themselves on the dynamics of interaction and fusion acquired by these cells and the various compartments delimited within them. A variety of key phenomena depend on membrane fusion, such as intra- and extracellular transport (enabling the acquisition and expulsion of nutrients, or cell communication), muscle tissue formation, or the invasion of cells by enveloped viruses. Notably, sex, a defining characteristic of eukaryotes, is fundamentally based on the fusion of gametes.
+Life as we know it heavily depends on cellular membranes. The very existence of cells requires the compartmentalization provided by these membranes. The emergence and evolution of different cell types, from the appearance of the first cells (estimated +3000 million years ago) to the present, largely base themselves on the dynamics of interaction and fusion acquired by these cells and the various compartments delimited within them. A variety of key phenomena depend on membrane fusion, such as intra- and extracellular transport (enabling the acquisition and expulsion of nutrients, or cell communication), muscle tissue formation, or the invasion of cells by enveloped viruses. Notably, sex, a defining characteristic of eukaryotes, is fundamentally based on the fusion of gametes.
 
 These events are far from being completely random and spontaneous: proteins called **fusogens** are part of the *ad hoc* cellular machinery that catalyzes these thermodynamically unfavorable fusions. The specificity provided by these cellular fusogens underlies the incessant, and at first glance chaotic, dance of membranes that underpins life.
 
@@ -75,6 +75,7 @@ This interesting family posses members that are known to be mitochondrial fusoge
 What is the taxonomic distribution of this family? How diverse are their members in Eukarya and Prokarya? No systematic approach to study their whole evolutionary story has being made to data, probably due to the amount of sequence divergence. A first approach shows the following preliminary results
 
 ![Presence of putative homologs to fusogens of the DLPs family in eukaryote supergroups defined by Burki et al. (2020) using different approaches. Presence in turn is marked in previous study by Sinha & Manoj (2019) (“R”), as well as the representation of the supergroups in the UniProt database (used as input by Foldseek Clusters).](imgs/distro_taxa_dlps.png){width="80%"}
+
 ![Distribution of putative prokaryotic homologs for DLPs projected into a previously published prokaryotic tree with taxonomic diversity. Both structural and sequence putative homologs are marked in the figure.](imgs/distro_proka_dlps.png){width="80%"}
 
 Both for eukaryotic and prokaryotic members a vast amount of unknown putative homologs appear to be discovered using either profile-based or structural searches. Further study is needed to ellucidate a complete set of homologues for these family, as well as performing phylogenetic inference in order to delimit a clade for known fusogens (and probable novel fusogens) and study their evolutionary dynamics.
@@ -94,7 +95,7 @@ Interestingly, this can lead to at least two hypotheses for the origin of mitoch
 - [HAP2/GCS1: Mounting evidence of our true biological EVE?](https://journals.plos.org/plosbiology/article/file?id=10.1371/journal.pbio.3000007&type=printable)
 - [**Discovery of archaeal fusexins homologous to eukaryotic HAP2/GCS1 gamete fusion proteins**](https://www.nature.com/articles/s41467-022-31564-1)
 
-# _Fusexinas_ in the press
+# _Fusexins_ in the press
 
 - [_A billion years before sex, ancient cells were equipped for it_](https://www.quantamagazine.org/ancient-cells-had-sex-fusion-proteins-long-before-sex-evolved-20220216/). A feature from ***Quanta magazine*** in which...
 - [_If you like sex, you might have to thank the archaea_](https://ladiaria.com.uy/ciencia/articulo/2022/7/si-te-gusta-el-sexo-tal-vez-tendrias-que-darles-las-gracias-a-las-arqueas/).
