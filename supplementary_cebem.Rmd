@@ -1,0 +1,60 @@
+---
+author: ""
+draft: false
+linktitle: "Supplementary material to CEBEM Mobiity Fellowship Grant"
+title: "*Going deeper*: usage of AI-driven structural phylogenetics to study the evolution of ancient cellular fusogens"
+type: docs
+weight: 1
+output:
+  prettydoc::html_pretty:
+    theme: leonids
+    toc: true
+    highlight: github
+---
+
+# Membrane Fusion: A fundamental process
+
+Life as we know it heavily depends on cellular membranes. The very existence of cells requires the compartmentalization provided by these membranes. The emergence and evolution of different cell types, from the appearance of the first cells (estimated ... million years ago) to the present, largely base themselves on the dynamics of interaction and fusion acquired by these cells and the various compartments delimited within them. A variety of key phenomena depend on membrane fusion, such as intra- and extracellular transport (enabling the acquisition and expulsion of nutrients, or cell communication), muscle tissue formation, or the invasion of cells by enveloped viruses. Notably, sex, a defining characteristic of eukaryotes, is fundamentally based on the fusion of gametes.
+
+These events are far from being completely random and spontaneous: proteins called **fusogens** are part of the *ad hoc* cellular machinery that catalyzes these thermodynamically unfavorable fusions. The specificity provided by these cellular fusogens underlies the incessant, and at first glance chaotic, dance of membranes that underpins life.
+
+# Searching for fusogens Using computational methods
+
+![](imgs/esquema_busqueda.png){width="80%"}
+
+Recent studies from our research group and collaborators have allowed us to predict and experimentally validate a eukaryotic fusogen responsible for the fusion of gametes. We found that this fusogen is homologous to the class II fusogens of enveloped viruses, revealing an ancient exchange between viruses and eukaryotes.
+
+![](imgs/meet_fusexins_spa.png){width="90%"}
+
+This finding has important implications for formulating evolutionary questions regarding the origin of sex, a turning point in the evolution of cellular complexity. Moreover, our results today show that these fusogens exist in Archaea, enriching the landscape. Was sex an invention of archaea, viruses, or eukaryotes? What role do archaeal fusexins play? These are questions that remain unclear to date.
+
+The landscape is even more enigmatic in other cases. For example, sexual fusogens in fungi or vertebrates are unknown. Other cellular fusogens described in the literature also lack a thorough study both in terms of their distribution and their evolutionary dynamics, which is indispensable to understand the evolution of some of the biological processes mentioned earlier.
+
+The appearance of new tools for the inference of structural models such as AlphaFold2 has been revolutionary in this regard, as they allow the detection of remote homologs from the alignment of structural models.
+
+## Proposal for iterative searching of fusogens
+
+
+[aca poner lo de busqueda iterativa y construccion de base de datos]
+
+# Advances in the study of dynamin-like proteins 
+This interesting family posses members that are known to be mitochondrial fusogens in eukaryotes. Bacterial members have been discovered in the last decades, but their functions remain in many cases unknown (e.g., it has been postulated that might have a role in membrane remodelling, or in fusing lamellar structures in Cyanobacteria).
+
+[aca poner los resultados que se obtuvieron con busquedas estructurales y eso]
+
+# Relevant works
+
+- [***Arabidopsis* HAP2/GCS1 is a gamete fusion protein homologous to somatic and viral fusogens**](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5350521/pdf/JCB_201610093.pdf) 
+- [The ancient gamete fusogen HAP2 is a eukaryotic class II fusion protein](https://www.cell.com/action/showPdf?pii=S0092-8674%2817%2930109-5)
+- [Structure-function studies link class II virus fusogens with the ancestral gamete fusion protein HAP2](https://www.cell.com/action/showPdf?pii=S0960-9822%2817%2930084-2)
+- [What came first, the virus or the egg?](https://www.cell.com/cell/pdf/S0092-8674(17)30190-3.pdf)
+- [HAP2/GCS1: Mounting evidence of our true biological EVE?](https://journals.plos.org/plosbiology/article/file?id=10.1371/journal.pbio.3000007&type=printable)
+- [**Discovery of archaeal fusexins homologous to eukaryotic HAP2/GCS1 gamete fusion proteins**](https://www.nature.com/articles/s41467-022-31564-1)
+
+# _Fusexinas_ in the press
+
+- [_A billion years before sex, ancient cells were equipped for it_](https://www.quantamagazine.org/ancient-cells-had-sex-fusion-proteins-long-before-sex-evolved-20220216/). A feature from ***Quanta magazine*** in which...
+- [_If you like sex, you might have to thank the archaea_](https://ladiaria.com.uy/ciencia/articulo/2022/7/si-te-gusta-el-sexo-tal-vez-tendrias-que-darles-las-gracias-a-las-arqueas/).
+- [_CONICET scientists lead study that sheds light on the origin of sexual reproduction_](https://www.conicet.gov.ar/cientificos-del-conicet-lideran-estudio-que-arroja-luz-sobre-el-origen-de-la-reproduccion-sexual/).
+- [_A molecule from ancient bacteria-like cells may shed new light on sexual reproduction_](https://news.ki.se/a-molecule-from-ancient-bacteria-like-cells-may-shed-new-light-on-sexual-reproduction).
+- [_Technion researchers and international colleagues hypothesize that the cellular mechanisms enabling the fusion of sperm cells and egg cells originated 3 billion years ago_](https://www.technion.ac.il/en/2022/07/primordial-sexual-reproduction/).
