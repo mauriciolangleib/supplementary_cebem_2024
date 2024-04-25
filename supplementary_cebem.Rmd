@@ -12,13 +12,13 @@ output:
     highlight: github
 ---
 
-# Membrane Fusion: A fundamental process
+# Membrane fusion: a fundamental process
 
 Life as we know it heavily depends on cellular membranes. The very existence of cells requires the compartmentalization provided by these membranes. The emergence and evolution of different cell types, from the appearance of the first cells (estimated ... million years ago) to the present, largely base themselves on the dynamics of interaction and fusion acquired by these cells and the various compartments delimited within them. A variety of key phenomena depend on membrane fusion, such as intra- and extracellular transport (enabling the acquisition and expulsion of nutrients, or cell communication), muscle tissue formation, or the invasion of cells by enveloped viruses. Notably, sex, a defining characteristic of eukaryotes, is fundamentally based on the fusion of gametes.
 
 These events are far from being completely random and spontaneous: proteins called **fusogens** are part of the *ad hoc* cellular machinery that catalyzes these thermodynamically unfavorable fusions. The specificity provided by these cellular fusogens underlies the incessant, and at first glance chaotic, dance of membranes that underpins life.
 
-# Searching for fusogens Using computational methods
+# Searching for fusogens using computational methods
 
 ![](imgs/esquema_busqueda.png){width="80%"}
 
@@ -34,8 +34,11 @@ The appearance of new tools for the inference of structural models such as Alpha
 
 ## Proposal for iterative searching of fusogens
 
+![Structural database assembly to obtain a phylogenetically diverse set of eukaryotic protein structures. Icons taken from bioicons (www.bioicons.com).](imgs/database_construction.png){width="90%"}
 
 [aca poner lo de busqueda iterativa y construccion de base de datos]
+
+![Iterative procedure proposed to detect remote homologues for fusexins and fusogenic DLPs employing structural information. Icons taken from bioicons (www.bioicons.com).](imgs/iterative_search.png){width="90%"}
 
 # Advances in the study of dynamin-like proteins 
 This interesting family posses members that are known to be mitochondrial fusogens in eukaryotes. Bacterial members have been discovered in the last decades, but their functions remain in many cases unknown (e.g., it has been postulated that might have a role in membrane remodelling, or in fusing lamellar structures in Cyanobacteria).
