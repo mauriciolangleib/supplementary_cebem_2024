@@ -32,7 +32,9 @@ The landscape is even more enigmatic in other cases. For example, sexual fusogen
 
 The appearance of new tools for the inference of structural models such as AlphaFold2 has been revolutionary in this regard, as they allow the detection of remote homologs from the alignment of structural models.
 
-## Proposal for iterative searching of fusogens
+## Proposal for iterative search of fusogens
+
+
 
 ![Structural database assembly to obtain a phylogenetically diverse set of eukaryotic protein structures. Icons taken from bioicons (www.bioicons.com).](imgs/database_construction.png){width="90%"}
 
@@ -40,10 +42,19 @@ The appearance of new tools for the inference of structural models such as Alpha
 
 ![Iterative procedure proposed to detect remote homologues for fusexins and fusogenic DLPs employing structural information. Icons taken from bioicons (www.bioicons.com).](imgs/iterative_search.png){width="90%"}
 
+# Advances in the study of fusexins
+![Rooted phylogenetic tree inferred with structural data using the Minimum Ancestry Deviation (MAD) algorithm. Paired structural comparison scores (TM-scores) were used to calculate a distance matrix (distance metric: 1-TMscore) for fusexin ectodomains. A phylogeny was inferred by minimum evolution method, which was rooted with the MAD algorithm. The root corresponds to the point where the AD score is minimized (color in the branches). The results do not allow discerning between a viral or a cellular origin for the family.](imgs/arbol_estruct_fsxs.png){width="80%"}
+
+![Phylogenetic tree inferred from archaeal and eukaryotic fusexin sequence data. Fusexin ectodomains were aligned and trimmed, and the resulting alignment was recoded following the Hanada scheme, encoding conservative and radical amino acid changes with different characters. Phylogenetic inference was done by maximum likelihood method, using non-reversible models in order to establish polarization for character changes. Root support values are shown for each branch (lower values: blue, higher values: pink). The results suggest an Archaean origin for fusexins. Due to the loss of phylogenetic signal only eukaryotic and archaeal sequences were used.](imgs/arbol_seqs_fsxs.png){width="80%"}
+![Structural comparison of 3D models of archaeal, eukaryotic (HAP2/GCS1) and viral (class II fusexin ectodomains). Structural models were downloaded from PDB or inferred with AlphaFold2 (employing ColabFold).  Flexible alignments were performed with FATCAT and possible structural homology was determined with TM-align (TM-score >= 0.5). Clear structural homology is observed for the Eukarya, Virus and Archaea models, with intradomain clustering showing higher scores. Domains shown in color at the edges of the heatmap.](imgs/matriz_fsxs.png){width="80%"}
+
+
 # Advances in the study of dynamin-like proteins 
 This interesting family posses members that are known to be mitochondrial fusogens in eukaryotes. Bacterial members have been discovered in the last decades, but their functions remain in many cases unknown (e.g., it has been postulated that might have a role in membrane remodelling, or in fusing lamellar structures in Cyanobacteria).
 
-[aca poner los resultados que se obtuvieron con busquedas estructurales y eso]
+![Presence of putative homologs to fusogens of the DLPs family in eukaryote supergroups defined by Burki et al. (2020) using different approaches. Presence in turn is marked in previous study by Sinha & Manoj (2019) (“R”), as well as the representation of the supergroups in the UniProt database (used as input by Foldseek Clusters).](imgs/distro_taxa_dlps.png){width="80%"}
+![Distribution of putative prokaryotic homologs for DLPs projected into a previously published prokaryotic tree with taxonomic diversity. Both structural and sequence putative homologs are marked in the figure.](imgs/distro_proka_dlps.png){width="80%"}
+![Paired structural comparison of cluster members from the Foldseek Clusters database. The _bitscore_ value reported by Foldseek for each structural alignment is shown. Structures considered in six clusters involving DLPs with structures already reported in the literature were used for the analysis: bacterial DLPs (from _Nostoc punctiforme_ and _Synechocystis_ sp. PCC 6803), outer membrane mitochondrial fusion mitofusins (yeast Fzo1, vertebrate Mfn1) and inner membrane mitofusins (yeast Mgm1 and vertebrate OPA1). The domain (Eukarya or Archaea) with which each structure is annotated in the UniProt database is also indicated.](imgs/comparacion_struct_dlps.png){width="80%"}
 
 # Relevant works
 
